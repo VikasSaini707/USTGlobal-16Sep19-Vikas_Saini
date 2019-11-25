@@ -255,7 +255,7 @@ public class MobileAppCRUD {
 				stmt = conn.createStatement();
 				rs = stmt.executeQuery(sql);
 				Scanner sc12 = new Scanner(System.in);
-				System.out.println("Tpye message...");
+				System.out.println("Type message...");
 				String message = sc12.nextLine();
 				if(rs.next())
 				{
