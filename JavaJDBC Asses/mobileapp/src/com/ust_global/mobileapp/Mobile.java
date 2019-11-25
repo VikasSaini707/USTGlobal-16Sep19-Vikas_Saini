@@ -8,10 +8,10 @@ public class Mobile {
 	public static void main(String[] args) {
 
 
-		Display();
+		display();
 	}
 
-	public static void Display()
+	public static void display()
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Press 1 to Show all contacts");
@@ -50,14 +50,14 @@ public class Mobile {
 				MobileAppCRUD.message(name1);
 				break;
 			case 3:
-				Display();
+				display();
 				break;
 
 			default:
 				System.out.println("Invalid key");
 				break;
 			}
-			Display();
+			display();
 		}else if(value == 3)
 		{
 			System.out.println("Press 1 to add contact");
@@ -108,7 +108,7 @@ public class Mobile {
 				System.out.println("Invalid key");
 				break;
 			}
-			Display();
+			display();
 
 		}else if(value==4) {
 			System.out.println("Thank you !!!!");
